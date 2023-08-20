@@ -1,0 +1,62 @@
+---
+title: "Week2_Tues_Comp"
+author: "Kate Becker"
+date: "2023-08-20"
+output: html_document
+---
+
+## Library
+
+```{r}
+library(tidyverse)
+library(janitor)
+library(ggplot2)
+```
+
+## Making a vector 
+
+```{r}
+dogs <- c("teddy", "khora", "waffle", "banjo")
+class(dogs)
+```
+
+## Numeric vector
+
+```{r}
+weights <- c(50, 55, 25, 35)
+class(weights)
+```
+
+## Integer vector
+
+```{r}
+dog_age <- c(5L, 6L, 7L)
+class(dog_age)
+```
+
+Integer to numeric
+
+```{r}
+is.numeric(dog_age)
+
+```
+
+## Dataframe
+
+```{r}
+dog_food <- c(teddy = "purina", kora = "alpo", waffle = "fancy_feast", banjo = "blue diamond")
+dog_food
+
+```
+
+```{r}
+dog_food[2]
+```
+
+```{r}
+dog_food["kora"]
+```
+
+```{r}
+
+```
